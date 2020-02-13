@@ -18,3 +18,4 @@ error: aborting due to previous error
 For more information about this error, try `rustc --explain E0308`.
 ```
 
+Note: You might not be able to get this compiler error if you're from the far future.
