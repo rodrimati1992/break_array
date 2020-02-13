@@ -1,0 +1,19 @@
+[package]
+name = "break_array"
+version = "9001.0.0"
+authors = ["rodrimati1992 <rodrimatt1985@gmail.com>"]
+edition = "2018"
+license = "MIT/Apache-2.0"
+description = "For breaking array indexing."
+documentation = "https://docs.rs/break_array/"
+readme="../readme.md"
+keywords = ["data-structures"]
+categories = ["data-structures"]
+repository = "https://github.com/rodrimati1992/break_array/"
+include = [
+    "Cargo.toml", 
+    "readme.md",
+    "src/**/*.rs", 
+]
+
+[dependencies]
