@@ -64,3 +64,16 @@ const fn coerce_slice<'a, T>(slic: &'a [T]) -> &'a [T] {
 fn coerce_slice_mut<'a, T>(slic: &'a mut [T]) -> &'a mut [T] {
     slic
 }
+
+
+#[cfg(test)]
+mod tests{
+    use crate::MyType;
+
+    #[test]
+    fn can_index_my_type(){
+        assert_eq!(&[3,4,5][MyType], &3);
+        assert_eq!(&mut [6,7,8][MyType], &mut 6);
+    }
+}
+
